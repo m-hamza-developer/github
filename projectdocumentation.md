@@ -34,7 +34,7 @@ The following features are present in the codebase:
 - Light/dark theme support through `useColorScheme` and `Themed` wrappers
 - Native-style themed components and color tokens
 - Cross-platform support for iOS, Android, and web
-- Placeholder sign-in screen in `app/(auth)/login.tsx`
+- Professional sign-in screen with email/password form in `app/(auth)/login.tsx`
 - Web-safe and mobile-safe screen utilities
 
 ## Technology Stack
@@ -365,6 +365,14 @@ Solution:
 - Verify the application layout structure in `app/_layout.tsx` and `app/(tabs)/_layout.tsx`.
 
 ## Changelog
+
+### 2026-08-12 - Login form redesign
+
+- Added: Professional sign-in form UI with email, password, remember-me, and password recovery affordances
+- Changed: Updated the login screen from a starter placeholder to a polished onboarding/authentication interface
+- Fixed: Clarified the project documentation to note that the login route now includes a real form layout rather than a placeholder screen
+- Removed: The previous placeholder-style sign-in presentation from the documentation summary
+- Updated: Project overview and feature list to reflect the current login experience
 
 ### 2026-08-12 - Initial project documentation
 
